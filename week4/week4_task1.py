@@ -4,33 +4,36 @@ same=0
 
 def IsBST(X, Y):
     global same
-    if same == 1:
-        return False
-    elif(X == Y):#如果完全一样
+    if len(X)==0 and len(Y)==0:
         return True
     else:
-        if(X[0] != Y[0] or len(X)!=len(Y)):
+        if same == 1 or X[0] != Y[0] or len(X) != len(Y):
             same = 1
+            return False
+        elif (X == Y):  # 如果完全一样
+            return True
         else:
-            st_x = []#smaller than X[0]
+            st_x = []  # smaller than X[0]
             bt_x = []
             st_y = []
             bt_y = []
-            for i in range(len(X)-1):
-                if(X[i+1]>X[0]):
-                    bt_x.append(X[i+1])
+            for i in range(len(X) - 1):
+                if (X[i + 1] > X[0]):
+                    bt_x.append(X[i + 1])
                 else:
-                    st_x.append(X[i+1])
-            for i in range(len(Y)-1):
-                if(Y[i+1]>Y[0]):
-                    bt_y.append(Y[i+1])
+                    st_x.append(X[i + 1])
+            for i in range(len(Y) - 1):
+                if (Y[i + 1] > Y[0]):
+                    bt_y.append(Y[i + 1])
                 else:
-                    st_y.append(Y[i+1])
-            IsBST(st_x,st_y)
-            IsBST(bt_x,bt_y)
+                    st_y.append(Y[i + 1])
+            IsBST(st_x, st_y)
+            IsBST(bt_x, bt_y)
 
 
 def get_input(N,L):
+    global same
+    LIST=[]
     real = input().split()
     for i in range(N):
         real[i] = int(real[i])#全部转换为Int
@@ -38,12 +41,14 @@ def get_input(N,L):
         test = input().split()
         for j in range(N):
             test[j] = int(test[j])  # 全部转换为Int
+        same = 0
         IsBST(real,test)
         if (same == 0):
-            print('Yes')
+            LIST.append('Yes')
         else:
-            print('No')
-
+            LIST.append('No')
+    for i in range(len(LIST)):
+        print(LIST[i])
 
 
 first_in = input()
@@ -53,8 +58,8 @@ while(first_in != '0'):
     first_in = input()
 
 '''
-0	sample 换顺序。有Yes，有No：根不同，子树根不同。树有单边、有双子树	答案错误	22 ms	3160KB
-1	最大N，多组合	答案错误	19 ms	3184KB
+0	sample 换顺序。有Yes，有No：根不同，子树根不同。树有单边、有双子树	答案正确 	22 ms	3160KB
+1	最大N，多组合	 非零返回 19 ms	3184KB
 2	N=1，只有1个节点	答案正确	20 ms	3312KB
 3	卡只判断数字相对先后位置的错误算法	答案正确	18 ms	3184KB
 '''

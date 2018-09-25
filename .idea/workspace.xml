@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cd37337-38a4-4311-9b40-b8cf600a08fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week3/test.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/week3_task3_revised.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/week4_task1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/week4_task2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/week4_task3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/week3_task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/week3/week3_task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/week4_task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4/week4_task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/week4_task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4/week4_task3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,25 +14,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DataStructure_Algorithm_ZJU$test.coverage" NAME="test Coverage Results" MODIFIED="1537847268577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4" />
+    <SUITE FILE_PATH="coverage/DataStructure_Algorithm_ZJU$test.coverage" NAME="test Coverage Results" MODIFIED="1537852216034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4" />
     <SUITE FILE_PATH="coverage/DataStructure_Algorithm_ZJU$week3_task2.coverage" NAME="week3_task2 Coverage Results" MODIFIED="1537108915997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
     <SUITE FILE_PATH="coverage/DataStructure_Algorithm_ZJU$week3_task1.coverage" NAME="week3_task1 Coverage Results" MODIFIED="1537102923575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
-    <SUITE FILE_PATH="coverage/DataStructure_Algorithm_ZJU$week4_task1.coverage" NAME="week4_task1 Coverage Results" MODIFIED="1537846856051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4" />
+    <SUITE FILE_PATH="coverage/DataStructure_Algorithm_ZJU$week4_task1.coverage" NAME="week4_task1 Coverage Results" MODIFIED="1537876491180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4" />
     <SUITE FILE_PATH="coverage/DataStructure_Algorithm_ZJU$week3_task3_revised.coverage" NAME="week3_task3_revised Coverage Results" MODIFIED="1537419666808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
     <SUITE FILE_PATH="coverage/DataStructure_Algorithm_ZJU$week3_task3.coverage" NAME="week3_task3 Coverage Results" MODIFIED="1537152929220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
+    <SUITE FILE_PATH="coverage/DataStructure_Algorithm_ZJU$week4_task3.coverage" NAME="week4_task3 Coverage Results" MODIFIED="1537874320476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1480069045">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,7 +54,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="py" value="3469" />
+          <entry key="py" value="4287" />
           <entry key="week1_task3" value="1" />
         </counts>
       </usages-collector>
@@ -65,22 +62,18 @@
         <counts>
           <entry key="C++" value="1" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="3469" />
+          <entry key="Python" value="4287" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week4/week4_task1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding>
-                <marker date="1537847328914" expanded="true" signature="780:1023" ph="..." />
-                <marker date="1537847328914" expanded="true" signature="1113:1114" ph="..." />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="23" lean-forward="true" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -90,16 +83,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week4/week4_task3.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week4/test.py">
+        <entry file="file://$PROJECT_DIR$/week4/week4_task3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -135,10 +123,10 @@
         <option value="$PROJECT_DIR$/week3/week3_task3.py" />
         <option value="$PROJECT_DIR$/week3/test.ipynb" />
         <option value="$PROJECT_DIR$/week3/week3_task3_revised.py" />
-        <option value="$PROJECT_DIR$/week4/test.py" />
-        <option value="$PROJECT_DIR$/week4/week4_task1.py" />
         <option value="$PROJECT_DIR$/week4/week4_task2.py" />
+        <option value="$PROJECT_DIR$/week4/test.py" />
         <option value="$PROJECT_DIR$/week4/week4_task3.py" />
+        <option value="$PROJECT_DIR$/week4/week4_task1.py" />
       </list>
     </option>
   </component>
@@ -149,9 +137,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="251" />
+    <option name="x" value="583" />
     <option name="y" value="23" />
-    <option name="width" value="960" />
+    <option name="width" value="633" />
     <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -174,6 +162,10 @@
               <item name="DataStructure-Algorithm_ZJU" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure-Algorithm_ZJU" type="462c0819:PsiDirectoryNode" />
               <item name="week4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure-Algorithm_ZJU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.week4_task1">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStructure-Algorithm_ZJU" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,28 +210,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="week3_task2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataStructure-Algorithm_ZJU" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week3/week3_task2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,20 +284,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="week4_task3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataStructure-Algorithm_ZJU" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/week4_task3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.week3_task3" />
-      <item itemvalue="Python.week3_task2" />
       <item itemvalue="Python.week3_task3_revised" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.week4_task1" />
+      <item itemvalue="Python.week4_task3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.week4_task1" />
+        <item itemvalue="Python.week4_task3" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.week3_task3_revised" />
         <item itemvalue="Python.week3_task3" />
-        <item itemvalue="Python.week3_task2" />
       </list>
     </recent_temporary>
   </component>
@@ -345,15 +337,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="251" y="23" width="960" height="746" extended-state="0" />
+    <frame x="583" y="23" width="633" height="746" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24618736" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2570806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,10 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <marker date="1537406163310" expanded="true" signature="127:128" ph="..." />
-            <marker date="1537406163310" expanded="true" signature="509:819" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -433,35 +421,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="19" />
-          <folding>
-            <marker date="1537419739101" expanded="true" signature="488:977" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week4/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="435">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <marker date="1537873954128" expanded="true" signature="163:168" ph="..." />
+            <marker date="1537873954128" expanded="true" signature="440:445" ph="..." />
+            <marker date="1537873954128" expanded="true" signature="561:566" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week4/week4_task1.py">
+    <entry file="file://$PROJECT_DIR$/week4/week4_task3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <marker date="1537847328914" expanded="true" signature="780:1023" ph="..." />
-            <marker date="1537847328914" expanded="true" signature="1113:1114" ph="..." />
-          </folding>
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week4/week4_task2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/week4/week4_task3.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/week4/week4_task1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" lean-forward="true" selection-end-line="65" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
