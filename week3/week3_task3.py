@@ -1,3 +1,6 @@
+#一开始思路搞错了，其实push进去的是先序顺序，pop出来的是中序；
+#再通过先序和中序求后序
+
 node_num = int(input())
 tree = []
 stack = []
