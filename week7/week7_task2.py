@@ -32,8 +32,7 @@ def Unweighted(net):
         return -2
     #第一步能跳到的点
     while queue:
-        V = queue.pop()
-        print(net[V],path[V])
+        V = queue.pop(0)
         if if_land(net[V]):
             return V
         for i in range(len(net)):
@@ -69,10 +68,10 @@ else:
         print(node[0],node[1])
 
 '''
-0	sample1 多条最短路，同一点有多路，最近点无路，多连通	答案错误	30 ms	3184KB
-1	sample 2 聚集型，均离岸远	答案正确	18 ms	3296KB
-2	分散型，均跳不到，有在角上	答案正确	17 ms	3256KB
-3	有一只在岸上，有一只在岛上，不能算在内	答案正确	17 ms	3308KB
-4	最大N，sample1的复杂版，可选路径8条，后面要更新前面的最短路	答案错误	20 ms	3184KB
-5	最小N，一步跳到岸	答案正确	17 ms	3184KB
+0	sample1 多条最短路，同一点有多路，最近点无路，多连通	答案正确	33 ms	3184KB
+1	sample 2 聚集型，均离岸远	答案正确	34 ms	3184KB
+2	分散型，均跳不到，有在角上	答案正确	27 ms	3184KB
+3	有一只在岸上，有一只在岛上，不能算在内	答案正确	20 ms	3184KB
+4	最大N，sample1的复杂版，可选路径8条，后面要更新前面的最短路	答案正确	31 ms	3240KB
+5	最小N，一步跳到岸	答案正确	18 ms	3184KB
 '''
