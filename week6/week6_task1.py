@@ -24,11 +24,11 @@ while(len(nodes_DFS)!=0):
             ans.append(node)
             nodes_DFS.remove(node)
         find_flag=0
-        for i in nodes_DFS[::-1]:
+        for i in nodes_DFS:
             if i in neighbor_list[node]:
                 stack.append(i)
                 find_flag=1
-                continue
+                break
         if find_flag==0:
             stack.pop(-1)
     print('{',end=' ')
@@ -55,3 +55,4 @@ while(len(nodes_BFS)!=0):
         print(ans[i], end=' ')
     print(ans[len(ans) - 1], end=' }\n')
 
+#continue是跳出本次循环，break才是跳出全部循环
