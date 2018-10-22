@@ -22,13 +22,13 @@ def toposort(Graph):
                 if indegree[v] == 0:
                     indegree[v] = zerov
                     zerov = v
-        else:
-            exit.append(vi)
+        #else:
+         #   exit.append(vi)
     return toposeq
 #N个节点，M条边
 N, M = [int(x) for x in input().split()]#  # of activities check points
                                            # of activities
-exit=[]
+#exit=[]
 ee=[0]*N#earlest happening time
 graph = []
 for i in range(N):
@@ -51,8 +51,8 @@ else:
     eelast = ee.index(ans)
 
     le = [ee[eelast]] * N  # lastest happening time
-    for item in exit:
-        le[item]=ee[item]
+    #for item in exit:
+     #   le[item]=ee[item]
     for k in range(N - 1, -1, -1):  # 逆拓扑排序
         i = toposet[k]
         for edge in graph[i]:
@@ -64,14 +64,6 @@ else:
         i=node
         for edge in graph[node][::-1]:  # 与输入顺序相反
             j =edge[0]
-            if ee[i]==le[i] and ee[j]==le[j]:
+            if ee[i]==le[i] and ee[j]==le[j] and ee[i]+edge[1]==le[j]:
                 print(str(i+1) + '->' + str(j+1))
 
-'''
-0	sample 4条简单路径选1	答案正确	19 ms	3184KB
-1	单起点和单终点，2条关键路径	答案正确	19 ms	3204KB
-2	多起点和多终点	答案错误	18 ms	3184KB
-3	不可行	答案正确	22 ms	3184KB
-4	最大N，简单回路不可行	答案正确	22 ms	3424KB
-5	最大N，随机，可行	答案错误	19 ms	3184KB
-'''
