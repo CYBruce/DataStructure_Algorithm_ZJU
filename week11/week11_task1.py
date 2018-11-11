@@ -39,3 +39,40 @@ for i in range(N):
     Insert(H,number1)
     Insert(H,number2)
 ScanAndOutput(H)
+
+
+'''
+#11-散列1 电话聊天狂人
+def ScanAndOutput(hashtable):
+    MinPhone,MaxCnt,PCnt=(0,0,0)
+    for keys in hashtable:
+        if hashtable[keys]>MaxCnt:
+            MaxCnt=hashtable[keys]
+            MinPhone=keys
+            PCnt=1
+        elif hashtable[keys]==MaxCnt:
+            MinPhone = min(keys,MinPhone)
+            PCnt += 1
+    if PCnt > 1:
+        print(MinPhone,MaxCnt,end=' ')
+        print(PCnt)
+    else:
+        print(MinPhone, MaxCnt)
+
+def Insert(hash,num):
+    for keys in H:
+        if keys == num:
+            hash[keys]+=1
+            return True
+    hash[num]=1
+
+
+#主程序框架
+N = int(input())
+H = {}
+for i in range(N):
+    number1, number2 = [int(x) for x in input().split()]
+    Insert(H,number1)
+    Insert(H,number2)
+ScanAndOutput(H)
+'''
