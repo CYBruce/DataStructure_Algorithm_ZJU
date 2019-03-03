@@ -1,5 +1,5 @@
 # DataStructure-Algorithm_ZJU
-[中国大学慕课](https://www.icourse163.org/course/zju0901-93001?from=study)，本项目整理课程相关内容，并利用Python将课程相关作业进行实现
+[中国大学慕课](https://www.icourse163.org/course/zju0901-93001?from=study)，本项目整理课程相关内容，并利用Python将课程相关作业进行实现，相关视频内容[视频链接](https://www.bilibili.com/video/av18586085?from=search&seid=3036863598612909610)
 
 ## [第一讲 基本概念](https://github.com/CYBruce/DataStructure-Algorithm_ZJU/tree/week1/%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5)
 通过研究很多例子去理解究竟什么是“数据结构”、为什么在教数据结构的时候要讲算法、以及相关的基本概念和常用术语。希望这次课的学习能让你明白为什么要学，并且在后面的学习中知道哪些术语是什么意思。
