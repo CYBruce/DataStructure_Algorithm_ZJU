@@ -22,11 +22,14 @@ def check(seq,M,L):
     return 'YES'
 
 
-max_cap, length, num_check = [int(x) for x in input().split()]
-seqs = []
-for i in range(num_check):
-    seqs.append([int(x) for x in input().split()])
-
-
-for i in range(num_check):
-    print(check(seqs[i], max_cap, length))
+def main():
+    max_cap, length, num_check = [int(x) for x in input().split()]
+    seqs = []
+    for i in range(num_check):
+        seqs.append([int(x) for x in input().split()])
+    for i in range(num_check):
+        print(check(seqs[i], max_cap, length))
+        
+if __name__ == '__main__':
+    main()
+    
