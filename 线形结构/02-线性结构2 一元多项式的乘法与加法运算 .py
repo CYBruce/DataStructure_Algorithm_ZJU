@@ -3,18 +3,8 @@
 多项式加法和乘法问题https://pintia.cn/problem-sets/1010070491934568448/problems/1037889290772254721#p-3
 这段代码写了好久，一直都在抠细节，几点感想：
 1. Python中逻辑关系直接用and or not,省的搞不清楚还麻烦
-2.
-      1 coef = [10,20,0,4,3,1]
-      2 for i in range(len(coef)):
-----> 3     if(coef[i] == 0):
-      4         del coef[i]
-      5     i+=1
-
-IndexError: list index out of range
-至今不知道错误的原因，所以对于list循环来说，尽量不要这样搞了，直接for item in list
-
-3.养成结构化编程的好习惯，写函数容易打理
-4.这道题并没有拿满分，还有一小点找不到错误所在
+2.养成结构化编程的好习惯，写函数容易打理
+3.这道题并没有拿满分，还有一小点找不到错误所在
 
 算法流程：
 先写加法方程，注意要删掉为0的项
@@ -144,6 +134,7 @@ while (0 in coef):
         if (item == 0):
             del coef[i]
             del poly[i]
+            continue
         i += 1
 
 tag = 0
@@ -162,7 +153,3 @@ else:
 if (tag == 0):
     print('0 0')
 
-# 0	sample换个数字	答案正确	23 ms	3312KB
-# 1	同类项合并时有抵消	答案正确	18 ms	3568KB
-# 2	系数和指数取上限，结果有零多项式	答案正确	31 ms	3448KB
-# 3	输入有零多项式和常数多项式	答案错误	27 ms	3440KB
